@@ -14,3 +14,6 @@ def sieve_of_eratosthenes(n):
 n = int(input("Введите число n для поиска простых чисел: "))
 print(f"Простые числа до {n}:")
 print(sieve_of_eratosthenes(n))
+
+# Добавление двух пустых строк в конце файла
+print("\n")
