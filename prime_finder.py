@@ -10,10 +10,8 @@ def sieve_of_eratosthenes(n):
     prime_numbers = [p for p in range(2, n) if primes[p]]
     return prime_numbers
 
-# Запрос ввода числа n с клавиатуры
 n = int(input("Введите число n для поиска простых чисел: "))
 print(f"Простые числа до {n}:")
 print(sieve_of_eratosthenes(n))
 
-# Добавление пустой строки в конце файла
 print()
